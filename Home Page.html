@@ -1,0 +1,533 @@
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio with Background Videos</title>
+   <!-- Add Font Awesome for Icons -->
+   <link rel="stylesheet" href="home.css">
+   <script src="./js/home.js"></script>
+ <link rel="stylesheet" href="profile.css">
+ <link rel="stylesheet" href="skill.css">
+ <script src="./js/skill.js"></script>
+  <link rel="stylesheet" href="resum.css">
+  <link rel="stylesheet" href="expries.css">
+<link href="./output.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+   <header>
+      <!-- Background Video Container -->
+      <div id="bg-video-container">
+         <video autoplay muted loop class="bg-video" id="video1">
+            <source src="https://media.istockphoto.com/id/1740489651/video/aerial-view-of-new-york-city-architecture-with-augmented-reality-visualization-with.mp4?s=mp4-640x640-is&k=20&c=6MgX_-yphmdpUX8kZpF93gEa3mvaoIGKlNrZhg9GwGI=" type="video/mp4">
+            Your browser does not support HTML5 video.
+         </video>
+         <video autoplay muted loop class="bg-video" id="video2">
+            <source src="https://media.istockphoto.com/id/2156675608/video/hispanic-latin-american-couple-software-engineer-developer-use-computer-work-on-program.mp4?s=mp4-640x640-is&k=20&c=CHzdhPE9Y2wEdr0zqltlfhgLpGB9AU1mGnuo0AU91jk=" type="video/mp4">
+            Your browser does not support HTML5 video.
+         </video>
+         <video autoplay muted loop class="bg-video" id="video3">
+            <source src="https://media.istockphoto.com/id/1472565449/video/software-programmer-working-on-computer-engineering-neural-network-creating-machine-learning.mp4?s=mp4-640x640-is&k=20&c=FUDplMQv8y8o_mZOf5uvjDAGZU1QnUrT6CyoZrIbnio=" type="video/mp4">
+            Your browser does not support HTML5 video.
+         </video>
+         <video autoplay muted loop class="bg-video" id="video4">
+            <source src="https://media.istockphoto.com/id/1556389414/video/man-using-a-laptop-double-exposure-with-business-data-analytics-dashboard.mp4?s=mp4-640x640-is&k=20&c=J7dE_a85kSnTLEFiXYLbDpK-W9_8S6GtD14l3DD6EMQ=" type="video/mp4">
+            Your browser does not support HTML5 video.
+         </video>
+    
+ </div>
+    <div class="content">
+        <h1 class="welcome">Welcome to My Portfolio</h1>
+
+        <div class="profile-container">
+            <div class="profile-card">
+                <img src="abdu.jpg" alt="Profile Picture" class="profile-img">
+                <h2 class="profile-name">Abdulkerem</h2>
+                <p class="profile-description">
+                    <span id="typed-text"></span>
+                    <span class="cursor">|</span>
+                </p>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="tel:+1234567890"><i class="fas fa-phone"></i></a>
+                    <a href="sms:+1234567890"><i class="fas fa-comment"></i></a>
+                    <a href="https://t.me/yourusername" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://gulpjs.com" target="_blank"><i class="fab fa-gulp"></i></a>
+                    <a href="https://www.npmjs.com" target="_blank"><i class="fab fa-npm"></i></a>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="about-container">
+            <h2>About Me</h2>
+            <p>Hi, I'm Abdulkerem, a passionate full-stack developer with expertise in building responsive and user-friendly web applications. My journey in the tech world started with a fascination for coding and technology.</p>
+            <p>I specialize in various web technologies and have experience in both front-end and back-end development. I am also a digital marketer, which helps me understand the nuances of online presence and user engagement.</p>
+            <p>When I'm not coding, you can find me exploring new technologies, working on side projects, or sharing knowledge with the community. I'm always looking to learn and grow in my field, and I hope to contribute positively to the tech community.</p>
+        </div>
+        <div class="skills-container">
+            <h2>My Skills</h2>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <svg class="progress-ring" width="150" height="150">
+                                <circle class="progress-ring__circle" cx="75" cy="75" r="65" stroke-width="8" />
+                            </svg>
+                            <div class="progress-text" id="html-progress">0%</div>
+                        </div>
+                    </div>
+                    <div class="skill-name">HTML</div>
+                </div>
+    
+                <div class="skill-item">
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <svg class="progress-ring" width="150" height="150">
+                                <circle class="progress-ring__circle" cx="75" cy="75" r="65" stroke-width="8" />
+                            </svg>
+                            <div class="progress-text" id="css-progress">0%</div>
+                        </div>
+                    </div>
+                    <div class="skill-name">CSS</div>
+                </div>
+    
+                <div class="skill-item">
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <svg class="progress-ring" width="150" height="150">
+                                <circle class="progress-ring__circle" cx="75" cy="75" r="65" stroke-width="8" />
+                            </svg>
+                            <div class="progress-text" id="js-progress">0%</div>
+                        </div>
+                    </div>
+                    <div class="skill-name">JavaScript</div>
+                </div>
+    
+                <div class="skill-item">
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <svg class="progress-ring" width="150" height="150">
+                                <circle class="progress-ring__circle" cx="75" cy="75" r="65" stroke-width="8" />
+                            </svg>
+                            <div class="progress-text" id="typescript-progress">0%</div>
+                        </div>
+                    </div>
+                    <div class="skill-name">TypeScript</div>
+                </div>
+    
+                <div class="skill-item">
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <svg class="progress-ring" width="150" height="150">
+                                <circle class="progress-ring__circle" cx="75" cy="75" r="65" stroke-width="8" />
+                            </svg>
+                            <div class="progress-text" id="bootstrap-progress">0%</div>
+                        </div>
+                    </div>
+                    <div class="skill-name">Bootstrap</div>
+                </div>
+    
+                <div class="skill-item">
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <svg class="progress-ring" width="150" height="150">
+                                <circle class="progress-ring__circle" cx="75" cy="75" r="65" stroke-width="8" />
+                            </svg>
+                            <div class="progress-text" id="react-progress">0%</div>
+                        </div>
+                    </div>
+                    <div class="skill-name">React.js</div>
+                </div>
+    
+                <div class="skill-item">
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <svg class="progress-ring" width="150" height="150">
+                                <circle class="progress-ring__circle" cx="75" cy="75" r="65" stroke-width="8" />
+                            </svg>
+                            <div class="progress-text" id="angular-progress">0%</div>
+                        </div>
+                    </div>
+                    <div class="skill-name">Angular.js</div>
+                </div>
+    
+                <div class="skill-item">
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <svg class="progress-ring" width="150" height="150">
+                                <circle class="progress-ring__circle" cx="75" cy="75" r="65" stroke-width="8" />
+                            </svg>
+                            <div class="progress-text" id="vue-progress">0%</div>
+                        </div>
+                    </div>
+                    <div class="skill-name">Vue.js</div>
+                </div>
+    
+                <div class="skill-item">
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <svg class="progress-ring" width="150" height="150">
+                                <circle class="progress-ring__circle" cx="75" cy="75" r="65" stroke-width="8" />
+                            </svg>
+                            <div class="progress-text" id="node-progress">0%</div>
+                        </div>
+                    </div>
+                    <div class="skill-name">Node.js</div>
+                </div>
+    
+                <div class="skill-item">
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <svg class="progress-ring" width="150" height="150">
+                                <circle class="progress-ring__circle" cx="75" cy="75" r="65" stroke-width="8" />
+                            </svg>
+                            <div class="progress-text" id="mongo-progress">0%</div>
+                        </div>
+                    </div>
+                    <div class="skill-name">MongoDB</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+    <div class="main-body">
+     <div class="row gutters-sm">
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <div class="d-flex flex-column align-items-center text-center">
+                    <img src="abdu.jpg" alt="Admin" class="rounded-circle" width="150">
+                    <div class="mt-3">
+                      <h4>Abdulkerem</h4>
+                      <h4></h4>
+                      <p class="text-secondary mb-1">Full Stack Developer</p>
+                      <p class="text-muted font-size-sm">Bay Area, adiss  abeba, CA</p>
+                      <button class="btn btn-primary">Follow</button>
+                      <button class="btn btn-outline-primary">Message</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mt-3">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe mr-2 icon-inline"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>Website</h6>
+                    <span class="text-secondary"></span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github mr-2 icon-inline"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>Github</h6>
+                    <span class="text-secondary"></span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter mr-2 icon-inline text-info"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>Twitter</h6>
+                    <span class="text-secondary"></span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram mr-2 icon-inline text-danger"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>Instagram</h6>
+                    <span class="text-secondary">bootdey</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook mr-2 icon-inline text-primary"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>Facebook</h6>
+                    <span class="text-secondary"></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Full Name</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      abdulkerem
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Email</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      abdulker62@gmail.com
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Phone</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      0983517154
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Mobile</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      0983517154
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Address</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      Bay Area,adiss  abeba 
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <a class="btn btn-info " target="__blank" href="https://www.bootdey.com/snippets/view/profile-edit-data-and-skills">Edit</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row gutters-sm">
+                <div class="col-sm-6 mb-3">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">assignment</i>Project Status</h6>
+                      <small>Web Design</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <small>Website Markup</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 72%" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <small>One Page</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 89%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <small>Mobile Template</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <small>Backend API</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 mb-3">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">assignment</i>Project Status</h6>
+                      <small>Web Design</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <small>Website Markup</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 72%" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <small>One Page</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 89%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <small>Mobile Template</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <small>Backend API</small>
+                      <div class="progress mb-3" style="height: 5px">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </div>
+    </div>
+    <div class="slideshow-container">
+  <div class="slideshow-container">
+  <div class="slides">
+    <img src="https://z-p3-scontent.fadd1-1.fna.fbcdn.net/v/t39.30808-6/465381745_590868476620455_8588951780533046718_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGI9ZXZ0Sh9ff6txyXmfhWEbqqEJI4QS2FuqoQkjhBLYY7c6kmHVcQ9_AhyreMo6DuKjvwSBIuAw2PeUhIBRzge&_nc_ohc=cCD6wRGPr9UQ7kNvgHDmMLt&_nc_zt=23&_nc_ht=z-p3-scontent.fadd1-1.fna&_nc_gid=A740gG7Vp4d9JjXQt4qRHQu&oh=00_AYBdlwDyU85Hl3zE8Har0seYVz_yCRPz1AtLfge3NX8n4Q&oe=675310C1" class="slide" alt="Image 1">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc27RqWMkEDGBMyAjkdxi5PjMjG9U8epJFrg&s" class="slide" alt="Image 2">
+    <img src="https://media.licdn.com/dms/image/v2/D4D12AQG1LFAiYUkgow/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1692970900028?e=2147483647&v=beta&t=uA2TGLwyf9sd-8KC6h_xGhyLGk5kN7tRE7QsgSvFrbI" class="slide" alt="Image 3">
+    <img src="https://cdn.prod.website-files.com/5ec7dad2e6f6295a9e2a23dd/62279a8cea48468ffd59888d_upwork-logo.svg" class="slide" alt="Image 4">
+  </div>
+</div>
+</div>
+<section id="contact" class="relative w-full min-h-screen bg-black text-red-500">
+<h1 class="text-4xl p-4 font-bold tracking-wide">
+    Contact
+</h1>
+<div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-red-800 h-32 w-full"></div>
+
+<!-- wrapper -->
+<div class="relative p-5 lg:px-20 flex flex-col md:flex-row items-center justify-center">
+
+    <!-- Social Media -->
+    <div class="w-full md:w-1/2 p-5 md:px-0 mx-5">
+    <div class="bg-gray-900 border border-red-500 w-full lg:w-1/2 h-full p-5 pt-8">
+        <h3 class="text-2xl font-semibold mb-5">
+        My Social Media
+        </h3>
+        <!-- list -->
+        <div class="flex flex-col gap-3">
+        <a href="#" class="flex items-center hover:text-white hover:bg-red-500 p-2">
+            <svg fill="currentColor" class="w-6 h-6 m-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+            Github
+        </a>
+        <a href="#" class="flex items-center hover:text-white hover:bg-red-500 p-2">
+            <svg fill="currentColor" class="w-6 h-6 m-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" >
+            <path d="M 21.800781 0 L 2.199219 0 C 1 0 0 1 0 2.199219 L 0 21.800781 C 0 23 1 24 2.199219 24 L 21.800781 24 C 23 24 24 23 24 21.800781 L 24 2.199219 C 24 1 23 0 21.800781 0 Z M 7 20 L 3 20 L 3 9 L 7 9 Z M 5 7.699219 C 3.800781 7.699219 3 6.898438 3 5.898438 C 3 4.800781 3.800781 4 5 4 C 6.199219 4 7 4.800781 7 5.800781 C 7 6.898438 6.199219 7.699219 5 7.699219 Z M 21 20 L 17 20 L 17 14 C 17 12.398438 15.898438 12 15.601563 12 C 15.300781 12 14 12.199219 14 14 C 14 14.199219 14 20 14 20 L 10 20 L 10 9 L 14 9 L 14 10.601563 C 14.601563 9.699219 15.601563 9 17.5 9 C 19.398438 9 21 10.5 21 14 Z"/>
+            </svg>
+            Linkedin
+        </a>
+        <a href="#" class="flex items-center hover:text-white hover:bg-red-500 p-2">
+            <svg fill="currentColor" class="w-6 h-6 m-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" >
+            <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+            </svg>
+            Youtube
+        </a>
+        <a href="#" class="flex items-center hover:text-white hover:bg-red-500 p-2">
+            <svg fill="currentColor" class="w-6 h-6 m-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" >
+            <path d="M12,0C5.373,0,0,5.373,0,12c0,6.016,4.432,10.984,10.206,11.852V15.18H7.237v-3.154h2.969V9.927c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L16.73,15.18h-3.106v8.697 C19.481,23.083,24,18.075,24,12C24,5.373,18.627,0,12,0z"/>
+            </svg>
+            Facebook
+        </a>
+        </div>
+    </div>
+    </div>
+
+    <!-- Contact Me -->
+    <form action="#" class="w-full md:w-1/2 border border-red-500 p-6 bg-gray-900">
+    <h2 class="text-2xl pb-3 font-semibold">
+        Send Message
+    </h2>
+    <div>
+        <div class="flex flex-col mb-3">
+        <label for="name">Name</label>
+        <input 
+            type="text" id="name" 
+            class="px-3 py-2 bg-gray-800 border border-gray-900 focus:border-red-500 focus:outline-none focus:bg-gray-800 focus:text-red-500"
+            autocomplete="off"
+        >
+        </div>
+        <div class="flex flex-col mb-3">
+        <label for="email">Email</label>
+        <input 
+            type="text" id="email" 
+            class="px-3 py-2 bg-gray-800 border border-gray-900 focus:border-red-500 focus:outline-none focus:bg-gray-800 focus:text-red-500"
+            autocomplete="off"
+        >
+        </div>
+        <div class="flex flex-col mb-3">
+        <label for="message">Message</label>
+        <textarea 
+            rows="4" id="message" 
+            class="px-3 py-2 bg-gray-800 border border-gray-900 focus:border-red-500 focus:outline-none focus:bg-gray-800 focus:text-red-500"
+        ></textarea>
+        </div>
+    </div>
+    <div class="w-full pt-3">
+        <button type="submit" class="w-full bg-gray-900 border border-red-500 px-4 py-2 transition duration-50 focus:outline-none font-semibold hover:bg-red-500 hover:text-white text-xl cursor-pointer">
+        Send
+        </button>
+    </div>
+    </form>
+</div>
+</section>
+
+   
+   </header>
+
+<script src="home.js"></script>
+        <div class="container">
+        <script src="home page.js"></script>
+        <script src="skill.js"></script>
+      <script>
+        const typedText = document.getElementById('typed-text');
+        const cursor = document.querySelector('.cursor');
+        const textArray = ['Web Developer', 'Digital Marketer', 'Tech Enthusiast', 'Lifelong Learner'];
+        let textIndex = 0;
+        let charIndex = 0;
+
+        function type() {
+            if (charIndex < textArray[textIndex].length) {
+                typedText.textContent += textArray[textIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(type, 100);
+            } else {
+                setTimeout(deleteText, 1000);
+            }
+        }
+
+        function deleteText() {
+            if (charIndex > 0) {
+                typedText.textContent = textArray[textIndex].substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(deleteText, 100);
+            } else {
+                textIndex = (textIndex + 1) % textArray.length;
+                setTimeout(type, 500);
+            }
+        }
+
+        // Start typing animation
+        setTimeout(type, 1000);
+
+        // Cursor blinking effect
+        setInterval(() => {
+            cursor.classList.toggle('active');
+        }, 500);
+
+         
+      </script>
+      
+      <script>
+        // Select all videos with the class 'bg-video'
+const videos = document.querySelectorAll('.bg-video');
+let currentIndex = 0;
+
+// Function to change the active video
+function changeVideo() {
+    // Remove the 'active' class from all videos
+    videos.forEach(video => video.classList.remove('active'));
+    
+    // Add the 'active' class to the next video in the list
+    currentIndex = (currentIndex + 1) % videos.length;  // Loop back to the first video when done
+    videos[currentIndex].classList.add('active');
+}
+
+// Change the video every 5 seconds
+setInterval(changeVideo, 5000);
+
+// Initially show the first video
+videos[0].classList.add('active');
+
+
+
+
+      </script>
+
+
+
+       
+   
+
+</body>
+</html>
+                                                                                       

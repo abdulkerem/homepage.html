@@ -1,0 +1,36 @@
+/* Container */
+.slideshow {
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  margin: auto;
+  overflow: hidden;
+}
+
+/* The slides */
+.slides {
+  display: flex;
+  width: 300%; /* Adjust based on number of slides */
+  animation: slide 9s infinite;
+}
+
+/* Each individual slide */
+.slides img {
+  width: 100%;
+  height: auto;
+}
+
+/* Keyframes for sliding animation */
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  33.33% {
+    transform: translateX(-50%);
+  }
+  66.66% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,73 @@
+  .skills-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 50px;
+            }
+    
+            .skills-container h2 {
+                font-size: 2rem;
+                color:goldenrod;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                margin-bottom: 30px;
+            }
+    
+            .skills-list {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+    
+            .skill-item {
+                margin: 20px;
+                text-align: center;
+            }
+    
+            .progress-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+    
+            .progress-bar {
+                position: relative;
+                width: 150px;
+                height: 150px;
+            }
+    
+            .progress-ring {
+                transform: rotate(-90deg);
+            }
+    
+            .progress-ring__circle {
+                fill: transparent;
+                stroke: #00d1ff; /* Progress bar color */
+                stroke-width: 8;
+                stroke-linecap: round;
+                transition: stroke-dashoffset 0.5s ease;
+            }
+    
+            .progress-text {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 1.2rem;
+                color: #fff; /* Text color */
+            }
+    
+            .skill-name {
+            font-size: calc(1rem + 0.2vw);
+            font-weight: bold;
+            color: goldenrod;
+            margin-top: 10px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            line-height: 1.5;
+        }
+
+        .skill-name:hover {
+            color: darkorange;
+        }
